@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoJewerly</title>
+  <link rel="stylesheet" href="build/css/app.css">
+
+</head>
+<body onscroll="barraFija()">
+  
+  <header class="header" id="navbar">
+    <div class="contenedor contenido-header">
+      <h1>NeoJewerly</h1>
+      <nav class="navegacion-principal">
+        <a href="#informacion">Información</a> 
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a> 
+      </nav>
+    </div>
+  </header>
+
+  <div class="video"> 
+      <video autoplay muted loop>
+        <source src="build/video/anillos.webm" type="video/webm">
+      </video>
+  </div> 
+
+  <div class="descripcion" id="informacion">
+    <div class="descripcion-imagen">
+      <img src="build/img/pexels-karen-laårk-boshoff-7436133.webp" alt="piezas joyería">
+    </div>
+
+    <div class="descripcion-texto">
+      <h2 class="descripcion-uno">Joyería de plata</h2>
+      <h3 class="subtitulo-uno">Quiénes somos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet imperdiet neque, bibendum gravida dui hendrerit ut. In ut lorem porttitor, auctor mi at, consequat sapien. Integer vestibulum leo ac urna facilisis, eget posuere ex commodo. Donec gravida cursus nibh.</p>
+    </div>
+  </div>
+
+  <div class="descripcion">
+    <div class="descripcion-texto">
+      <h2 class="descripcion-dos">100% Confiables</h2>
+      <h3 class="subtitulo-dos">Artículos Premium</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet imperdiet neque, bibendum gravida dui hendrerit ut. In ut lorem porttitor, auctor mi at, consequat sapien.</p>
+    </div>
+
+    <div class="descripcion-imagen">
+      <img src="build/img/pexels-cottonbro-4974343.webp" alt="piezas joyería">
+    </div>
+  </div>
+  <div class="acordeon" id="productos">
+    <img src="build/img/pexels-tubarones-photography-2764970.webp" alt="foto aretes" class="imagen">
+    <div class="acordeon-menu">
+      <div class="item" id="item1">
+        <a href="#item1" class="titulo">
+          <span>Aretes</span>
+          <i class="icono"></i>
+        </a>
+        <p class=item-texto>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum pretium libero, id faucibus mauris dapibus eget. Aenean bibendum lacinia risus ac fermentum. Nullam tincidunt fermentum ultrices. Donec congue, ante ac luctus lobortis, massa lorem euismod ex, non pharetra odio arcu vitae erat.
+        </p>
+      </div>
+
+      <div class="item" id="item2">
+        <a href="#item2" class="titulo">
+          <span>Collares</span>
+          <i class="icono"></i>
+        </a>
+        <p class=item-texto>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum pretium libero, id faucibus mauris dapibus eget. Aenean bibendum lacinia risus ac fermentum. Nullam tincidunt fermentum ultrices. Donec congue, ante ac luctus lobortis, massa lorem euismod ex, non pharetra odio arcu vitae erat.
+        </p>
+      </div>
+
+      <div class="item" id="item3">
+        <a href="#item3" class="titulo">
+          <span>Brazaletes</span>
+          <i class="icono"></i>
+        </a>
+        <p class=item-texto>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum pretium libero, id faucibus mauris dapibus eget. Aenean bibendum lacinia risus ac fermentum. Nullam tincidunt fermentum ultrices. Donec congue, ante ac luctus lobortis, massa lorem euismod ex, non pharetra odio arcu vitae erat.
+        </p>
+      </div>
+
+      <div class="item" id="item4">
+        <a href="#item4" class="titulo">
+          <span>Arracadas</span>
+          <i class="icono"></i>
+        </a>
+        <p class=item-texto>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum pretium libero, id faucibus mauris dapibus eget. Aenean bibendum lacinia risus ac fermentum. Nullam tincidunt fermentum ultrices. Donec congue, ante ac luctus lobortis, massa lorem euismod ex, non pharetra odio arcu vitae erat.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="contacto contenedor" id="contacto">
+    <h2>Contáctanos</h2>
+    <div class="contactos">
+    <div class="redsocial">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+      </svg>
+      <h3>Facebook</h3>
+      <p>NeoJewerly Joyería</p>
+    </div>
+
+    <div class="redsocial">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="4" width="16" height="16" rx="4" />
+        <circle cx="12" cy="12" r="3" />
+        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+      </svg>
+      <h3>Instagram</h3>
+      <p>@neo_jewerly</p>
+    </div>
+    <div class="redsocial">
+     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <polyline points="3 7 12 13 21 7" />
+      </svg> 
+      <h3>Mail</h3>
+      <p>neojewerly@neojewerly.mx</p>
+    </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>NeoJewerly - Todos los derechos reservados.</p>
+  </footer>
+  <script src="build/js/script.js"></script> 
+</body>
+</html>
